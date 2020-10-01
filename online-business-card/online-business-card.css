@@ -1,0 +1,167 @@
+/* CSS reset */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* munkaszínek */
+
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* méretezés, pozícionálás */
+
+.profile-card {
+  width: 650px;
+  max-width: calc(100vw - 30px);
+  top: 8rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding-top: 8rem;
+}
+
+.header, h3, .hobby-icons-list, .social-icons-list {
+  text-align: center;
+}
+
+/* listák */
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+
+/* tipográfia */
+
+h2, h3, span, p {
+  font-family: 'Amiri', serif;
+  color: #312126;
+}
+
+h1, #profession {
+  color: #ee2a42;
+  margin-bottom: 1.25rem;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+  margin-bottom: .625rem;
+}
+
+.fa-lg {
+  color: #ee2a42;
+}
+
+span {
+  color: #444;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.introduction p {
+  font-weight: 700;
+  margin-top: .3125rem;
+  font-size: 1.125rem;
+}
+
+.about {
+  line-height: 1.8;
+  margin: 1.25rem 2.1875rem;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  font-size: 1.2rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5625rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2;
+  margin-bottom: .625rem;
+  color: #312126;
+}
+
+strong {
+  font-weight: 700;
+  color: #ee2a42;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  transition: all 0.5s;
+  margin-bottom: .625rem;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+body {
+  background: url('https://i.imgur.com/ryULBta.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  border-radius: .625rem;
+  box-shadow: 0px 0px 3.125rem .625rem #ee2a42;
+  padding: .625rem;
+}
+
+.profile-picture {
+  margin-top: -75px;
+}
+
+.hobbies, .contact {
+  margin: 1.25rem .625rem;
+}
+
+.hobby-icon, .social-icon {
+  color: #fa6c48;
+  opacity: 0.6;
+  margin: .625rem .625rem;
+  transition: all 0.5s;
+}
+
+.hobby-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.social-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: #ee2a42;
+}
+
+hr {
+  width: 75%;
+  margin: 1.875rem auto;
+  border: 2px solid rgba(238, 42, 66, 0.3);
+}

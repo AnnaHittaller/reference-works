@@ -1,0 +1,2 @@
+A responsive online business card with a few hover effects. It is an introduction of me. :)
+Logo also drawn by me - to check out my design portfolio, please visit my Behance page at https://behance.net/annahittaller.

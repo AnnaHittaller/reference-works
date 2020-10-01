@@ -1,0 +1,1 @@
+A simple blog template. Fully responsive, with the header on the top in the mobile version and on the side in the desktop version. 
